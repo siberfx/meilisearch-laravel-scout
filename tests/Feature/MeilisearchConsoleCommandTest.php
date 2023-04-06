@@ -1,6 +1,6 @@
 <?php
 
-namespace Siberfx\Scout\Tests\Feature;
+namespace Meilisearch\Scout\Tests\Feature;
 
 use MeiliSearch\Client;
 use MeiliSearch\Exceptions\ApiException;

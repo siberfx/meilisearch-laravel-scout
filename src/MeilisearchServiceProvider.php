@@ -1,12 +1,12 @@
 <?php
 
-namespace Siberfx\Scout;
+namespace Meilisearch\Scout;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Scout\EngineManager;
 use MeiliSearch\Client;
-use Siberfx\Scout\Console\IndexMeilisearch;
-use Siberfx\Scout\Engines\MeilisearchEngine;
+use Meilisearch\Scout\Console\IndexMeilisearch;
+use Meilisearch\Scout\Engines\MeilisearchEngine;
 
 class MeilisearchServiceProvider extends ServiceProvider
 {

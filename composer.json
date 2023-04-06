@@ -36,18 +36,18 @@
     },
     "autoload": {
         "psr-4": {
-            "MeiliSearch\\Scout\\": "src"
+            "Meilisearch\\Scout\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MeiliSearch\\Scout\\Tests\\": "tests"
+            "Meilisearch\\Scout\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MeiliSearch\\Scout\\MeilisearchServiceProvider"
+                "Meilisearch\\Scout\\MeilisearchServiceProvider"
             ]
         }
     },
